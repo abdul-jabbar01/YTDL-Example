@@ -1,5 +1,8 @@
 # YTDL-Example
 
+## A Word Of Warning
+Please be aware that this project was tested on a Windows system only. The section below on how to get it working on linux is really nothing more than a guess at this point in time. Also, this example was set up for a particular use case, and may not meet the needs for everybody who views this, so take this as an example and customize it to exactly what you need. 
+
 ## Setup
 
 ### If On Windows
@@ -12,7 +15,7 @@
 
 ### If On Linux
 
-1. Install youtube-dl and ffmpeg using your system's package installer.
+1. Install youtube-dl, ffmpeg, and any dependancies you need using your system's package installer.
 2. Download this project and unzip wherever you like.
 3. Set up the config files from this project however you would like. At a minimum, you must add links to the videos you wish to download (more on this in a section below).
 4. Set up a cron job to run this script whenever you like. (Have it run the .sh and NOT the .bat) [More on cron here.](https://www.ostechnix.com/a-beginners-guide-to-cron-jobs/)
@@ -23,7 +26,7 @@ note: The example below is for Windows. Linux won't need the ffmpeg and youtube-
 
 Your folder structure should look like the following:
 
-
+![Folder Structure](https://github.com/1832923/YTDL-Example/blob/master/YTDL%20Folder%20Structure.png)
 
 ## Customizing
 
